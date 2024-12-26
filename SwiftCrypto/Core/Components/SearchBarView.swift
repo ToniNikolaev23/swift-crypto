@@ -19,7 +19,8 @@ struct SearchBarView: View {
             
             TextField("Search by name or symbol...", text: $searchText)
                 .foregroundStyle(Color.theme.accent)
-                .disableAutocorrection(true)
+                .keyboardType(.asciiCapable)
+                .autocorrectionDisabled(true)
                 .overlay(
                     Image(systemName: "xmark.circle.fill")
                         .padding()
