@@ -19,6 +19,7 @@
 		B58B33792D1D48C500ADB39C /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33782D1D48C500ADB39C /* CoinRowView.swift */; };
 		B58B337B2D1D491200ADB39C /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B337A2D1D491200ADB39C /* PreviewProvider.swift */; };
 		B58B337D2D1D4F3C00ADB39C /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B337C2D1D4F3C00ADB39C /* Double.swift */; };
+		B58B337F2D1D5CAA00ADB39C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B337E2D1D5CAA00ADB39C /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B58B33782D1D48C500ADB39C /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		B58B337A2D1D491200ADB39C /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		B58B337C2D1D4F3C00ADB39C /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		B58B337E2D1D5CAA00ADB39C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		B58B336C2D1C301400ADB39C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B58B337E2D1D5CAA00ADB39C /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58B33792D1D48C500ADB39C /* CoinRowView.swift in Sources */,
+				B58B337F2D1D5CAA00ADB39C /* HomeViewModel.swift in Sources */,
 				B58B33592D1C2C8700ADB39C /* ContentView.swift in Sources */,
 				B58B336E2D1C302300ADB39C /* HomeView.swift in Sources */,
 				B58B33572D1C2C8700ADB39C /* SwiftCryptoApp.swift in Sources */,
