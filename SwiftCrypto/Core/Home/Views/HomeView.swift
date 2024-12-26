@@ -20,7 +20,8 @@ struct HomeView: View {
             
             // Content layer
             VStack {
-                homeHeadeer
+                homeHeader
+                SearchBarView(searchText: $vm.searchText)
                 
                 columnTitles
                 
@@ -50,7 +51,7 @@ struct HomeView: View {
 }
 
 extension HomeView {
-    private var homeHeadeer: some View {
+    private var homeHeader: some View {
         HStack {
             CircleButtonView(iconName: showPortfolio ? "plus" : "info")
                 .animation(.none, value: showPortfolio)
