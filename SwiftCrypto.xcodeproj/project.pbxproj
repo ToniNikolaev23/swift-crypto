@@ -45,6 +45,7 @@
 		B58B33B42D216D6300ADB39C /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33B32D216D6300ADB39C /* CoinDetailDataService.swift */; };
 		B58B33B62D21F56E00ADB39C /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33B52D21F56E00ADB39C /* ChartView.swift */; };
 		B58B33B82D21FA4D00ADB39C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33B72D21FA4D00ADB39C /* Date.swift */; };
+		B58B33BA2D21FF6D00ADB39C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33B92D21FF6D00ADB39C /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		B58B33B32D216D6300ADB39C /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
 		B58B33B52D21F56E00ADB39C /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		B58B33B72D21FA4D00ADB39C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B58B33B92D21FF6D00ADB39C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				B58B337C2D1D4F3C00ADB39C /* Double.swift */,
 				B58B33912D1D9D7C00ADB39C /* UIApplication.swift */,
 				B58B33B72D21FA4D00ADB39C /* Date.swift */,
+				B58B33B92D21FF6D00ADB39C /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				B58B339C2D1EAF8300ADB39C /* MarketDataService.swift in Sources */,
 				B58B33742D1C331300ADB39C /* CircleButtonAnimationView.swift in Sources */,
 				B58B338C2D1D8AA600ADB39C /* CoinImageViewModel.swift in Sources */,
+				B58B33BA2D21FF6D00ADB39C /* String.swift in Sources */,
 				B58B337B2D1D491200ADB39C /* PreviewProvider.swift in Sources */,
 				B58B339E2D1EBE1100ADB39C /* PortfolioView.swift in Sources */,
 				B58B337D2D1D4F3C00ADB39C /* Double.swift in Sources */,
