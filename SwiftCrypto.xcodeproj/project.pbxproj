@@ -47,6 +47,8 @@
 		B58B33B82D21FA4D00ADB39C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33B72D21FA4D00ADB39C /* Date.swift */; };
 		B58B33BA2D21FF6D00ADB39C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33B92D21FF6D00ADB39C /* String.swift */; };
 		B58B33BE2D22ADD800ADB39C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33BD2D22ADD800ADB39C /* SettingsView.swift */; };
+		B58B33C22D22BBAA00ADB39C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58B33C12D22BBAA00ADB39C /* LaunchScreen.storyboard */; };
+		B58B33C42D22BD6600ADB39C /* LunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33C32D22BD6600ADB39C /* LunchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +93,8 @@
 		B58B33B72D21FA4D00ADB39C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		B58B33B92D21FF6D00ADB39C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		B58B33BD2D22ADD800ADB39C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B58B33C12D22BBAA00ADB39C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B58B33C32D22BD6600ADB39C /* LunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,7 @@
 		B58B33692D1C2FE700ADB39C /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B58B33BF2D22BB9500ADB39C /* Launch */,
 				B58B336F2D1C30B000ADB39C /* Components */,
 				B58B33AA2D2157EF00ADB39C /* Detail */,
 				B58B33BB2D22ADA600ADB39C /* Settings */,
@@ -303,6 +308,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		B58B33BF2D22BB9500ADB39C /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				B58B33C02D22BB9C00ADB39C /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		B58B33C02D22BB9C00ADB39C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B58B33C12D22BBAA00ADB39C /* LaunchScreen.storyboard */,
+				B58B33C32D22BD6600ADB39C /* LunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -361,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58B33C22D22BBAA00ADB39C /* LaunchScreen.storyboard in Resources */,
 				B58B335E2D1C2C8800ADB39C /* Preview Assets.xcassets in Resources */,
 				B58B33652D1C2D6000ADB39C /* Assets.xcassets in Resources */,
 			);
@@ -405,6 +428,7 @@
 				B58B339E2D1EBE1100ADB39C /* PortfolioView.swift in Sources */,
 				B58B337D2D1D4F3C00ADB39C /* Double.swift in Sources */,
 				B58B338A2D1D898100ADB39C /* CoinImageService.swift in Sources */,
+				B58B33C42D22BD6600ADB39C /* LunchView.swift in Sources */,
 				B58B33B02D21696000ADB39C /* CoinDetailModel.swift in Sources */,
 				B58B33772D1D3AAB00ADB39C /* CoinModel.swift in Sources */,
 				B58B33B42D216D6300ADB39C /* CoinDetailDataService.swift in Sources */,
@@ -546,10 +570,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftCrypto/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -574,10 +597,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftCrypto/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
