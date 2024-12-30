@@ -46,6 +46,7 @@
 		B58B33B62D21F56E00ADB39C /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33B52D21F56E00ADB39C /* ChartView.swift */; };
 		B58B33B82D21FA4D00ADB39C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33B72D21FA4D00ADB39C /* Date.swift */; };
 		B58B33BA2D21FF6D00ADB39C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33B92D21FF6D00ADB39C /* String.swift */; };
+		B58B33BE2D22ADD800ADB39C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B33BD2D22ADD800ADB39C /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		B58B33B52D21F56E00ADB39C /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		B58B33B72D21FA4D00ADB39C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		B58B33B92D21FF6D00ADB39C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B58B33BD2D22ADD800ADB39C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				B58B336F2D1C30B000ADB39C /* Components */,
 				B58B33AA2D2157EF00ADB39C /* Detail */,
+				B58B33BB2D22ADA600ADB39C /* Settings */,
 				B58B336A2D1C300500ADB39C /* Home */,
 			);
 			path = Core;
@@ -284,6 +287,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		B58B33BB2D22ADA600ADB39C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B58B33BC2D22ADC300ADB39C /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B58B33BC2D22ADC300ADB39C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B58B33BD2D22ADD800ADB39C /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -391,6 +410,7 @@
 				B58B33B42D216D6300ADB39C /* CoinDetailDataService.swift in Sources */,
 				B58B33B22D216D0700ADB39C /* DetailViewModel.swift in Sources */,
 				B58B33A72D1F1A7600ADB39C /* PortfolioDataService.swift in Sources */,
+				B58B33BE2D22ADD800ADB39C /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
